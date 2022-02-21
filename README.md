@@ -9,3 +9,7 @@ The dataset was downloaded from Google's Open Image Dataset (https://storage.goo
 These images were uploaded to Roboflow and were further pre-processed and augmented. The Roboflow project was then exported as code in order to get the API link and code block which is to be added in the YOLOv5 Colab notebook.
 
 After uploading the data, the model is trained until required loss is achieved by setting the number of epochs. The weights are then downloaded and can be tested in the notebook itself as well as locally on your local machine.
+
+# Test Batch Images
+
+![test](https://user-images.githubusercontent.com/66839830/155007068-65975efa-9e8b-4857-8c65-db659536ab05.jpeg)
