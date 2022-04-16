@@ -4,11 +4,13 @@ This project uses the Roboflow YOLOv5 Google Colab notebook which can be found i
 
 # Dataset
 
-The dataset was downloaded from Google's Open Image Dataset (https://storage.googleapis.com/openimages/web/visualizer/index.html?set=train&type=detection&c=%2Fm%2F083kb) using the OIDv4 toolkit and consisted of around 1500 annoated images. This tutorial: https://www.youtube.com/watch?v=_4A9inxGqRM by The AI Guy can be followed in order to download the dataset and convert the annotations into YOLO format.
+Downlaod the dataset from Google's Open Image Dataset (https://storage.googleapis.com/openimages/web/visualizer/index.html?set=train&type=detection&c=%2Fm%2F083kb) using the OIDv4 toolkit which consists of around 1500 annoated images. 
 
-These images were uploaded to Roboflow and were further pre-processed and augmented. The Roboflow project was then exported as code in order to get the API link and code block which is to be added in the YOLOv5 Colab notebook.
+This tutorial: https://www.youtube.com/watch?v=_4A9inxGqRM by The AI Guy can be followed in order to download the dataset and convert the annotations into YOLO format.
 
-After uploading the data, the model is trained until required loss is achieved by setting the number of epochs. The weights are then downloaded and can be tested in the notebook itself as well as locally on your local machine.
+Upload the images to Roboflow for pre-processing and augmentions of the dataset. Export the project from the Roboflow wesbsite to the google colab notebook using the API. Add the API to the Roboflow code block which is present in the YOLOv5 Colab notebook.
+
+Upload the data, and train the model until required loss is achieved by setting the number of epochs. Download the weights and export them to your google drive. The weights can now be tested in the notebook itself as well as locally on your local machine.
 
 # Test Batch Images
 
